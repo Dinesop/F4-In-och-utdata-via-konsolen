@@ -2,25 +2,25 @@
 
 /* Test av indata metoder...klasser? 
  * -> Klassen är Console! Metoden är Read, ReadKey etc! */
-//Console.WriteLine("Test av Console.ReadLine:");
-//string? testConsoleReadLine = Console.ReadLine();
-//Console.WriteLine(testConsoleReadLine);
+Console.WriteLine("Test av Console.ReadLine:");
+string testConsoleReadLine = Console.ReadLine();
+Console.WriteLine(testConsoleReadLine);
 
 //Console.WriteLine("Test av Console.Read:");
 //int testConsoleRead = Console.Read();
 //Console.WriteLine(testConsoleRead);
 
-Console.WriteLine("Test av Console.ReadKey, ange valfri tangentkombination:");
-ConsoleKeyInfo key = Console.ReadKey();
-Console.WriteLine();
-Console.WriteLine("Character entered: " + key.KeyChar);
-Console.WriteLine("Special keys entered: " + key.Modifiers);
+//Console.WriteLine("Test av Console.ReadKey, ange valfri tangentkombination:");
+//ConsoleKeyInfo key = Console.ReadKey();
+//Console.WriteLine();
+//Console.WriteLine("Character entered: " + key.KeyChar);
+//Console.WriteLine("Special keys entered: " + key.Modifiers);
 
 /* Test av utdata metoder*/
-/* Console.Write("1. Jag glömde fnuttar först, oj oj vad ledsen den blev.");
-Console.Write("2. Tur att VS färgkodning hjälper att upptäcka sådana fel. Här testas Console.Write.");
-Console.WriteLine("3. Men nu, nu testar vi Console.WriteLine.");
-Console.WriteLine("4. Och jag måste säga att cw + tab är otroligt användbart.");*/
+//Console.Write("1. Jag glömde fnuttar först, oj oj vad ledsen den blev.");
+//Console.Write("2. Tur att VS färgkodning hjälper att upptäcka sådana fel. Här testas Console.Write.");
+//Console.WriteLine("3. Men nu, nu testar vi Console.WriteLine.");
+//Console.WriteLine("4. Och jag måste säga att cw + tab är otroligt användbart.");
 
 /* Test av strängformatering */
 //string var1 = "test";
